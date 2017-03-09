@@ -39,6 +39,6 @@ public class MemoryCacheUtils {
     public Bitmap getBitmapMemory(String imageUrl){
            Bitmap bm=mMempryCache.get(imageUrl);
 
-         return bm;
+         return bm;  //
     }
 }
