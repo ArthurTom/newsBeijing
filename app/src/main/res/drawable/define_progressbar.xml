@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- rotate是旋转动画，fromDegress：开始的角度，
+                       toDegrees：结束的角度 ，正代表顺时针
+
+                       pivotX：相对与物体的x坐标开始的位置
+                       pivotY： 相对物体的y坐标开始的位置
+                       -->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:toDegrees="360"
+    android:pivotX="50%"
+    android:pivotY="50%">
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:thicknessRatio="15"
+    android:useLevel="false">
+    <gradient
+         android:centerColor="#33ff0000"
+        android:endColor="#ff0000"
+        android:startColor="#ffffff"
+        android:type="sweep">
+
+    </gradient>
+
+</shape>
+</rotate>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.zhongweikang.beijingnew.View.Content_main_viewPager
+        android:id="@+id/main_viewpage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.example.zhongweikang.beijingnew.View.Content_main_viewPager>
+
+    <RadioGroup
+        android:id="@+id/main_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_tab_bg"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home"
+            style="@style/main_content_grbutton"
+            android:drawableTop="@drawable/home_bg"
+            android:text="主页" />
+
+        <RadioButton
+            android:id="@+id/new_center"
+            style="@style/main_content_grbutton"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/new_bg"
+            android:text="新闻中心" />
+
+        <RadioButton
+            android:id="@+id/smart"
+            style="@style/main_content_grbutton"
+            android:drawableTop="@drawable/smart_bg"
+            android:text="智慧服务" />
+
+        <RadioButton
+
+            style="@style/main_content_grbutton"
+            android:drawableTop="@drawable/govaf_bg"
+            android:text="政务"
+            android:id="@+id/grov" />
+
+        <RadioButton
+            android:id="@+id/setting"
+            style="@style/main_content_grbutton"
+            android:drawableTop="@drawable/setting_bg"
+            android:text="设置" />
+    </RadioGroup>
+</LinearLayout>

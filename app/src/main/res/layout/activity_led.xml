@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_led"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+    <Button
+        android:id="@+id/led_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/led_btton"
+        android:text="开始体验"
+        android:textSize="20sp"
+        android:textColor="@drawable/leg_btn_color"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:visibility="gone"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp">
+
+
+    <LinearLayout
+        android:id="@+id/led_linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    </LinearLayout>
+        <View
+            android:id="@+id/red_point"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="@drawable/point_select">
+
+        </View>
+    </RelativeLayout>
+</RelativeLayout>

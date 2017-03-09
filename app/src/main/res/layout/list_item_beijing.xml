@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:src="@color/colorAccent"
+        android:scaleType="fitXY"
+        android:background="@drawable/back"
+        android:padding="1dp"
+        />
+    <TextView
+        android:id="@+id/item_tex1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="是否汇款后放暑假了就死定了j"
+        android:layout_toRightOf="@id/item_image"
+        android:layout_marginLeft="15dp"
+        android:lines="2"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/item_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="19201-021"
+        android:textSize="16sp"
+        android:layout_below="@id/item_tex1"
+        android:layout_toRightOf="@id/item_image"
+        android:layout_alignLeft="@id/item_tex1"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:id="@+id/item_weixn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/icon_news_comment_num"/>
+
+</RelativeLayout>
